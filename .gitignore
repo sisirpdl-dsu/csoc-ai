@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv/
+venv/
+.venv312/
+READMEcopy.md
+# IDE
+.vscode/
+.idea/
+
+# Runtime artifacts
+*.sqlite3
+
+# Training exclusions
+training/data/raw/
+training/outputs/
+training/**/*.ipynb_checkpoints
+
+# Model artifacts large (add intentionally if needed)
+models/*/tmp/
+models/*/cache/
+temp/
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+# Exclude training & large artifacts from build context
+training/
+*.ipynb
+*.pt
+*.safetensors
+*.ckpt
+__pycache__/
+.venv/
+venv/
+.git/
+.gitignore
+.DS_Store

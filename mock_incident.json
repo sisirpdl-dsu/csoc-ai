@@ -1,0 +1,8 @@
+{
+  "incident_type": "Multiple failed logins from a single IP",
+  "entities": {
+    "ip_address": "203.0.113.75",
+    "account": "j.doe@example.com"
+  },
+  "table_suggestion": "SigninLogs"
+}

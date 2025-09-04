@@ -1,0 +1,11 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+# Upgrade to Pydantic v2 for Python 3.13 compatibility
+pydantic==2.8.2
+azure-identity==1.17.1
+azure-monitor-query==1.2.0
+python-dotenv==1.0.1
+transformers==4.43.3
+peft==0.11.1
+accelerate==0.34.2
+safetensors==0.4.3
